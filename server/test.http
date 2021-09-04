@@ -1,0 +1,42 @@
+POST http://localhost:5000/app/addProduct
+Content-Type: application/json
+
+{
+    "productName":"Iphone",
+    "productDescription":"Apple Iphone X",
+    "price":100000,
+    "seoTitle":"Iphone",
+     "seoDescription":"Apple Iphone X"
+}
+###
+POST http://localhost:5000/app/login
+Content-Type: application/json
+
+{
+    "username":"anandu",
+    "password":"password"
+}
+###
+POST http://localhost:5000/app/users/login
+Content-Type: application/json
+
+{
+    "username":"anandu",
+    "password":"password"
+}
+###
+POST http://localhost:5000/app/user/signup
+Content-Type: application/json
+
+{
+    "username":"anandu",
+    "password":"password"
+}
+###
+POST http://localhost:5000/app/user/login
+Content-Type: application/json
+
+{
+    "username":"anandu7",
+    "password":"12345"
+}
